@@ -27,4 +27,4 @@ This project implements **`filtered_string_view`**, a lightweight, non-owning st
   - **Avoids unnecessary allocations**, ensuring minimal memory overhead.  
   - **Uses `std::function<bool(const char &)>`** for filtering logic.  
 
-This implementation is **modular, performant, and extensible**, making it a powerful tool for **string processing** in high-performance applications.  
+This implementation is built around idea of  **modularity, performance, and extensibility**, with hope of making it a powerful tool for **string processing** in high-performance applications.  
